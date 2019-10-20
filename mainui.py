@@ -41,20 +41,22 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-        self.pushButton.clicked.connect(self.printDennts)
-        self.clear.clicked.connect(self.cleartext)
-        self.pushButton.clicked.connect(self.printMessage)
+        #self.pushButton.clicked.connect(self.printDennts)
+        #self.clear.clicked.connect(self.cleartext)
+        #self.pushButton.clicked.connect(self.printMessage)
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QtWidgets.QApplication.translate("MainWindow", "MainWindow", None, -1))
         self.pushButton.setText(QtWidgets.QApplication.translate("MainWindow", "PushButton", None, -1))
         self.clear.setText(QtWidgets.QApplication.translate("MainWindow", "Clear", None, -1))
 
-    def printMessage(self):
-        print ("Hello World")
+    #def printMessage(self):
+        #print ("Hello World")
 
-    def printDennts(self):
-        self.textEdit.setText(self.lineEdit.text()+ " Dennts")
+    #def printDennts(self):
+        #self.textEdit.setText(self.lineEdit.text()+ " Dennts")
 
-    def cleartext(self):
-        self.textEdit.setText("")
+    #def cleartext(self):
+        #self.textEdit.setText("")
+
+
