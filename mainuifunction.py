@@ -1,7 +1,7 @@
 from PySide2 import QtCore, QtGui, QtWidgets
 from mainui import Ui_MainWindow
 
-class UIPracticeWindow(QtWidgets.MainWindow):
+class UIPracticeWindow(QtWidgets.QMainWindow):
 	def __init__(self, parent=None):
 		super(UIPracticeWindow, self).__init__(parent)
 
