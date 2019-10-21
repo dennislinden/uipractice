@@ -20,14 +20,12 @@ class UIPracticeWindow(QtWidgets.QMainWindow):
 		self.ui.textEdit.setText("")
 
 	def printMessage(self):
-		print ("Hello World")
+		print("Hello World")
 
 
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
+    MainWindow = UIPracticeWindow()
     MainWindow.show()
-    sys.exit(app.exec_())
+    #sys.exit(app.exec_())
